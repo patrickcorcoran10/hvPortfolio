@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+body{
+	
+	font-family: open Sans;
+	overflow-x: hidden;
+	padding: 0;
+	margin: 0;
+
+}
+#top{
+	background: url(img/head.jpg) no-repeat center fixed;
+	background-size: cover;
+	height: 100vh;
+	padding: 0;
+	
+}
+#top h2{
+	margin: 0;
+	vertical-align: middle;
+	text-align: center;
+	top: 50%;
+	position: relative;
+	font-size: 50px;
+	font-weight: 700;
+	color: #fff;
+
+}
+#center{
+	background: url(img/h2.jpeg) no-repeat center fixed;
+	background-size: cover;
+	height: 100vh;
+	padding: 0;
+	
+}
+#center .pra{
+   width: 42%;
+    float: left;
+    text-align: center;
+    margin-top: 140px;
+    margin-left: 5%;
+
+}
+#center p{
+	padding: 30px;
+	font-size: 30px;
+	font-weight: 700;
+}
+#center ul{
+	padding: 30px;
+	font-size: 25px;
+	font-weight: 700;
+	list-style-type: none;
+
+}
+#right{
+	background: #8ad1eb;
+}
+#left{
+	background: #0E6251;
+
+}
+
+  footer{
+  	 background-color: #3498DB;
+    color: #fff;
+  	text-align: center;
+  	height: 100%;
+  	margin: 0;
+  	line-height: 2;
+  }
+  footer h2{
+  	margin: 0;
+  	font-size: 38px;
+  }
+  footer p{
+  	font-size: 20px;
+  	font-weight: 600;
+  }
+  footer a{
+  	padding: 10px;
+  	font-size: 18px;
+  	text-decoration: none;
+  	color: pink;
+  	line-height: 2;
+  }
+   footer a:hover{
+  	
+  	text-decoration: underline;
+  	
+  }
+  footer .create{
+  	background: #DC7633;
+  	text-align: center;
+  	height: 100%;
+  	margin: 0;
+  	
+  	font-weight: 700;
+
+  }
+  @media(max-width: 768px){
+  	#center{	
+	height: 140vh;
+}
+  	#center .pra{
+   width: 90%;
+   }
+
+  }
+
+  @media(max-width: 375px){
+  	#center{
+	
+	height: 150vh;
+    }
+}
